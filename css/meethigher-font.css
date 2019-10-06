@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "fontawesome";
+  src: url("../fonts/fontawesome-webfont.svg") format("svg"),
+  url("../fonts/fontawesome-webfont.eot") format("embedded-opentype"),
+  url("../fonts/fontawesome-webfont.ttf") format("truetype"),
+  url("../fonts/fontawesome-webfont.woff") format("woff");
+}
+
+.fa {
+  font-family: "fontawesome";
+}
+
+.fa-th:before {
+  content: "\f00a";
+}
+
+.fa-bars:before {
+  content: "\f0c9";
+}
